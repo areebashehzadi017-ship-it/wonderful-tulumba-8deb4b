@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pink Purple Surprise</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: #170923;
+  overflow:-y auto;
+}
+
+.page {
+  display: none;
+  min-height: 100vh;
+  overflow: auto; ;
+  width: 100%;
+  padding: 35px 20px 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: radial-gradient(
+    circle at top,
+    #702b83,
+    #301044 45%,
+    #12091e
+  );
+  animation: appear 0.7s ease;
+}
+
+.page.active {
+  display: flex;
+}
+
+h1 {
+  color: #ffb9f2;
+  text-shadow: 0 0 15px #ff48d7;
+  font-size: clamp(30px, 6vw, 52px);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 650px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 850px;
+}
+
+.gallery img,
+.main-photo {
+  width: min(250px, 80vw);
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid #ff9bea;
+  box-shadow: 0 0 22px #d946ef;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover,
+.main-photo:hover {
+  transform: scale(1.04);
+}
+
+.next {
+  position: fixed;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 14px 30px;
+  border: 0;
+  border-radius: 30px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ec4899, #a855f7);
+  box-shadow: 0 0 20px #d946ef;
+}
+
+.heart {
+  position: fixed;
+  bottom: -30px;
+  pointer-events: none;
+  animation: floatUp 6s linear forwards;
+  z-index: 5;
+}
+
+@keyframes floatUp {
+  from {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-110vh) rotate(40deg);
+    opacity: 0;
+  }
+}
+
+@keyframes appear {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+</style>
+</head>
+
+<body>
+
+<section class="page active">
+  <h1>✨ A Special Surprise ✨</h1>
+  <p>Ek beautiful surprise tumhara intezar kar raha hai 💖</p>
+  <p>Ready ho? Next press karo!</p>
+</section>
+
+<section class="page">
+  <h1>💗 Happy 18 Birthday Mari JAN</h1>
+  <div class="gallery">
+    <img src="./images/photo1.png" alt="Memory 1">
+  <img src="./images/photo2.png" alt="Memory 2">
+  </div>
+  <p>🌸 HAPPY BIRTHDAY.........TO MY HANDSOME BOY....🎂🎂
+✨</p>
+</section>
+
+<section class="page">
+  <h1>🌸 Our Beautiful Moments</h1>
+  <div class="gallery">
+    <img src="./images/photo3.png" alt="Memory 3">
+  </div>
+  <p>🌸♡ Ahmad, if life gave me a thousand chances to choose someone special, I would still choose you, again and again, in every lifetime. ♾️❤️</p>
+
+</section>
+
+<section class="page">
+  <h1>💌 A Special Note</h1>
+  <p>
+  My favourite view will always be you.MUJAY NAHI YAAD YE KB HOA PAR AP MARA LIYA BOHAT IMPORTANT HA BS ITNA YAAD HA SUBHO KA DIN THA WO SHOP THE AP THA MA THE AP KE CHADER THE....😁😁😁😁US KA BAAD PATA HE NAHI CHALA HOA KYA...😂BS AP KE KOI DUA KAAM A GAI HA KYON KA AP TO 1ST YEAR SA NOTE KAR RAHA THA MUJAY...💓💓BS MUJAY HE NAHI PATA THA PATA CHALA TO ACCADMEY SA FREE HONA KA TIME A GAYA THA....PAR KOI NAHI DIN TO YAAD HE HA AP KASA MUJAY HEADDOWN KAR KADAKHTA THA...AP KA TABLE MA RAKHA HOA PAGE JO ABI BI MARA PASS HA OR AGA BI RAHA GA.........................💞💞💞AP KA SHIRT PR SIGN KARWANA KE KOSHISH CHAHA NA HO SAKHA PAR KOI NAHI TRY TO KIYA HE THA...............💞💞 KA BAAD PRACTICAL BOOK CHACK KARWANA ACCADMEY GAYA TO WAHA HUM PAHLE BAR FACE TO FACE HOA PAHLE BAR HUM NA ITNA PASS HO KAR BAAT KE.....💓💓US DIN MANA AP KO YE KAHA THA AB ASA NAHI MILA GA MOKA HE NAHI MILNA PAR DAKHA QISMAT AB HUM ROOZ MILTA HA.....💓💓💓💓💓
+AB TO AP MUJAY PEN DANA LAG GAYA HA KABI CHEEZA DANA A JATA HA JASA KOI CHOTE BACHI SCHOOL JA RAHI HO......🌹🌹🌹PHIR KABI AP KA DIL PAR BAAT BI LAG JATE HA AB...😁😁😁JO BI HA TIME BOHAT ACHA GAYA AP KA SATH OR AGA BI JAYA GA INSHALLAH!....🌹🌹BS AP KHUSH RAHA KARA TANSIONS NA LIYA KARA AP HASTA ZYADA ACHA LAGTA HA....AP KA HAR TIME MA AP KA SATH HU MUJAY YAAD RAKHNA AP MUJ SA HAR BAT KAR SAKTA HA JO MARA TK HE RAHA GE....MA AP KE PARSONAL DAIRY HU....😁😁😁😁
+MUJAY PATA HA AP NA MARA HAR TIME SATH DIYA HA JB MARA PASS KOI NAHI HOTA THA AP MARA SATH HOTA THA HOTA HA BI...🌹🌹AP BOHAT CARE KARTA HA...THANK YOU MARI JAN MARA KLIYA YE SAB KARNA KA LIYA....💓💓💓
+MARA BS MA JITNA HO GA MA AP KA SATH DU GE AP KA SATH RAHO GE AGA JO QISMAT....🙂 HO SAKTA HA MA AP KA LIYA BAHTER NA HU....JO AP KA HAQ MA BAHTER HO AP KO WO MILA...JES SA AP KO KHUSHI HO....💞💞
+MUJAY ITNA PATA HA AP MARI LIFE MA AY HA TO MA BOHAT CHANGE HO GAI HU ARI TIME TABLE SAB KUCH....🌹🌹AP LIFE MA AY TO PATA CHALA KA APNA KON HA OR DOSRA KON HA......AP KA ANA SA MANA BOHAT KUCH SEKHA HA 💞💞
+PATA NAHI AGA ASA KABI AP KO WISH KARNA KA MOKA MILA GA KA NAHI PAR MUJAY YE DIN YAAD RAHA GA...KYON KA AP MARA LIYA KHAS HA.MUJAY PATA HA MANA BOHAT BAR AP KO BLOCK KIYA HA OR AP KO BURA BI LAGTA THA....SORRY YAR PAR MARA PHONE LAPTOP CHACK HOTA THA IS LIYA YE SAB KARNA PARTA THA PAR JB MOKA MILTA THA UNBLOCK KARTE THE....AJ TK AP KO MARI KOI BI BAAT KA BURA LAGA HO TO MA DIL SA SORRY KARTE HU MUJAY MAAF KAR DANA...🙂🙂
+AP KO MARA BARA MA SAB PATA HA OR MUJAY AP KA BARA MA ASA KABI KOI ITNA IMPORTANT NAHI HOA MARA LIYA NA MANA KABI KISI KO ITNE EZZAT DE HA....JO AP HA WO BS AP HA OR RAHA GA....AP SA 1 DIN BAT NA HO MUJAY AP K KAAMI HONA LAG JATE HA....BS ALLAH KARA HUM KABI DUR NA HO ASA HE AK DOSRA KA SATH RAHA....🥺🥺 BAKI AP KHUSH RAHA (LOVE YOU)💋💋💋💋💋💋💋💋💋💋💋💋💋💋💋💋” 💕</p>Ahmad, you are not just a name or just a face in a picture. You are someone whose presence brings a different kind of happiness. There is something special about you that is difficult to explain in words. Your smile, your personality, your little habits, and even the smallest things about you make you different from everyone else. 🫠💞  
+  </p>
+</section>
+<section class="page">
+  <h1>💜 The End?</h1>
+  <p>Mara pass Kuch khas ha nahi ap ko dana ka liya kyon ka jitna khas gift apna mujay diya tha wasa to ma nahi da sakte Thank you so much mara khayal rakhna ka liya mujay special feel karwana ka liya....abi ka liya itna he or I LOVE YOU ab koi task nahi ha jnab ab mana khud kaha ha....</p>
+  <p>Thank you for opening this little world of happiness.</p>
+</section>
+
+<button class="next" id="nextBtn">Next ➜</button>
+
+<script>
+const pages = document.querySelectorAll(".page");
+const nextBtn = document.getElementById("nextBtn");
+let currentPage = 0;
+
+nextBtn.addEventListener("click", function () {
+  pages[currentPage].classList.remove("active");
+
+  currentPage++;
+
+  if (currentPage >= pages.length) {
+    currentPage = 0;
+  }
+
+  pages[currentPage].classList.add("active");
+
+  nextBtn.textContent =
+    currentPage === pages.length - 1
+      ? "Start Again ↻"
+      : "Next ➜";
+});
+
+// Floating hearts
+function createHeart() {
+  const heart = document.createElement("span");
+  heart.className = "heart";
+  heart.textContent = Math.random() > 0.5 ? "💗" : "💜";
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.fontSize = (15 + Math.random() * 20) + "px";
+  document.body.appendChild(heart);
+
+  setTimeout(function () {
+    heart.remove();
+  }, 6000);
+}
+
+setInterval(createHeart, 500);
+</script>
+
+</body>
+</html>
